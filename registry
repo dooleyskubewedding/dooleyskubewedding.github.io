@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body {
+    font-family: 'Dancing Script';font-size: 22px;
+    background-image: url('Gavin-7.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #27BEF5;
+  opacity: 0.75;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul class="sidenav">
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="schedule.html">Schedule</a></li>
+<li><a href="weddingparty.html">Wedding party</a></li>
+<li><a href="travel.html">Travel & Local Information</a></li>
+<li><a href="#top">Registry</a></li>
+</ul>
+
+<h1>Wedding party</h1>
+
+<p>June 12, 2027</p>
+
+</body>
+</html>
